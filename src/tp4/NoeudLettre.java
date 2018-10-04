@@ -30,5 +30,25 @@ public class NoeudLettre {
 	public void ajouterMot(String sousmot) {
 		this.d.ajouterMot(sousmot);
 	}
+	
+	public int nombreMots() {
+		return this.d.nombreMots();
+	}
+	
+	public int nombreLettres() {
+		return this.d.nombreLettres();
+	}
+
+	public int nombreLettresPhy() {
+		return this.d.nombreLettresPhy();
+	}
+
+	public char getVal() {
+		return val;
+	}
+	public String toStringDico() {
+		return this.d.toString();
+	}
+
 
 }
