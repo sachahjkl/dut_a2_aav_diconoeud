@@ -1,8 +1,0 @@
-name: "dut_a2_aav_diconoeud"
-description: ""
-topics: []
-homepage: ""
-source:
-  provider: gitlab
-  namespace: "sachahjkl"
-  path: "sachahjkl/dut_a2_aav_diconoeud"
